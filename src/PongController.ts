@@ -6,7 +6,7 @@ export default class PongController {
     this._pong = p;
   }
 
-  public exec() {
-    console.log('game has started');
+  public start() {
+    this._pong.start();
   }
 }
