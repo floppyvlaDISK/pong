@@ -4,15 +4,22 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "node app.js & webpack -w"
+    "dev": "node app.js & webpack -w",
+    "test": "jest --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/jest": "^24.0.25",
     "express": "^4.17.1"
   },
   "devDependencies": {
     "@types/express": "^4.17.2",
+    "@types/sinon": "^7.5.1",
+    "jest": "^24.9.0",
+    "jest-canvas-mock": "^2.2.0",
+    "sinon": "^8.0.2",
+    "ts-jest": "^24.2.0",
     "ts-loader": "^6.2.1",
     "tslint": "^5.20.1",
     "typescript": "^3.7.4",
